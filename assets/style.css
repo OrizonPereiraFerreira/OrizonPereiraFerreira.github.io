@@ -76,7 +76,10 @@ aside .photo {
   display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
   border-radius: 10px; border: 1px solid var(--rule); margin-bottom: 26px; background: #fff;
 }
-aside h2 { font: 600 0.75rem/1 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+aside h2 {
+  font: 600 1.12rem/1.2 var(--serif); color: var(--accent); letter-spacing: 0; text-transform: none;
+  margin: 0 0 8px; padding-bottom: 6px; border-bottom: 2px solid var(--accent);
+}
 aside section + section { margin-top: 28px; }
 aside ul { list-style: none; margin: 0; padding: 0; }
 aside li { padding: 5px 0; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 8px; }
