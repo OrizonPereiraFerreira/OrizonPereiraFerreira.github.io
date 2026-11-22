@@ -51,6 +51,7 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .masthead .wrap { padding-top: 18px; padding-bottom: 0; }
 .masthead h1 { font: 600 2.1rem/1.1 var(--serif); margin: 0; letter-spacing: -0.015em; }
 .masthead .role { margin: 4px 0 0; color: var(--muted); font-size: 0.98rem; }
+.masthead .role a { color: var(--accent); }
 body { padding-top: var(--head, 128px); }
 .wrap { padding-top: 36px; padding-bottom: 18px; }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
