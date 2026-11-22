@@ -59,10 +59,9 @@
           let year = null, buf = "";
           items.forEach((p) => {
             if (p.year !== year) {
-              if (buf) out += "<ol class='pubs'>" + buf + "</ol>";
+              if (buf) out += "<ol class='pubs'>" + buf + "</ol><hr class='yearsep'>";
               buf = "";
               year = p.year;
-              out += "<div class='year'>" + esc(year) + "</div>";
             }
             buf += pubItem(p, p.n);
           });

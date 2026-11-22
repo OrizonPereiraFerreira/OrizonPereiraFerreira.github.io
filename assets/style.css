@@ -127,6 +127,7 @@ figcaption { color: #4d5860; font-size: 0.86rem; margin-top: 8px; }
 .count { color: var(--muted); font-size: 0.88rem; }
 .year { font: 600 0.8rem var(--sans); letter-spacing: 0.06em; color: var(--muted); margin: 22px 0 6px; }
 ol.pubs { list-style: none; margin: 0; padding: 0; }
+hr.yearsep { border: 0; border-top: 1px dotted var(--muted); opacity: 0.45; margin: 12px 0; }
 ol.pubs li { display: grid; grid-template-columns: 34px 1fr; gap: 4px; padding: 9px 0; border-bottom: 1px solid var(--rule); }
 ol.pubs .num { color: var(--muted); font-size: 0.85rem; padding-top: 2px; }
 .authors { font-size: 0.93rem; color: var(--muted); }
