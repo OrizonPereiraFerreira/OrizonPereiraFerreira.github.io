@@ -68,9 +68,11 @@ main > section[hidden] { display: none; }
 
 /* Layout */
 .layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 48px; padding-top: 36px; padding-bottom: 64px; }
-aside {
-  position: sticky; top: calc(var(--head, 128px) + 24px); align-self: start; font-size: 0.93rem;
-  max-height: calc(100vh - var(--head, 128px) - 48px); overflow-y: auto; scrollbar-width: thin;
+aside { align-self: start; font-size: 0.93rem; }
+/* The side column (photo, profiles, contact) is pinned to the window and does not move */
+.aside-inner {
+  position: fixed; top: calc(var(--head, 128px) + 36px); width: 250px;
+  max-height: calc(100vh - var(--head, 128px) - 56px); overflow-y: auto; scrollbar-width: thin;
 }
 
 aside .photo {
@@ -172,7 +174,7 @@ footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85
 
 @media (max-width: 820px) {
   .layout { grid-template-columns: 1fr; gap: 32px; }
-  aside { position: static; max-height: none; overflow: visible; }
+  .aside-inner { position: static; width: auto; max-height: none; overflow: visible; }
   aside .photo { width: 180px; }
   .masthead h1 { font-size: 1.55rem; }
   .masthead .role { font-size: 0.85rem; }

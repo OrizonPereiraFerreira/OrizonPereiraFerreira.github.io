@@ -123,7 +123,13 @@
 
   // The header is fixed; the page starts below it, whatever its height on this screen.
   const head = document.querySelector(".masthead");
-  const setHead = () => document.documentElement.style.setProperty("--head", head.offsetHeight + "px");
+  const side = document.querySelector(".aside-inner");
+  const layout = document.querySelector(".layout");
+  const setHead = () => {
+    document.documentElement.style.setProperty("--head", head.offsetHeight + "px");
+    // the pinned side column takes no room in the page, so keep the page at least as tall as it
+    layout.style.minHeight = getComputedStyle(side).position === "fixed" ? side.scrollHeight + 72 + "px" : "";
+  };
   setHead();
   window.addEventListener("resize", setHead);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(setHead);
