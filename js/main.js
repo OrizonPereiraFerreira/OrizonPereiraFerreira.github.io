@@ -30,7 +30,7 @@
       "<li><span class='num'>" + (n || "") + "</span><div>" +
       "<div class='authors'>" + authors(p.authors) + "</div>" +
       "<div class='ptitle'>" + title + (p.status ? "<span class='status'>" + esc(p.status) + "</span>" : "") + "</div>" +
-      "<div class='venue'><i>" + esc(p.venue || "") + "</i>" + (ref ? ", " + esc(ref) : "") + "." + badges(p) + "</div>" +
+      "<div class='venue'><i>" + (p.venueUrl ? "<a class='journal' href='" + esc(p.venueUrl) + "'>" + esc(p.venue) + "</a>" : esc(p.venue || "")) + "</i>" + (ref ? ", " + esc(ref) : "") + "." + badges(p) + "</div>" +
       "</div></li>"
     );
   }

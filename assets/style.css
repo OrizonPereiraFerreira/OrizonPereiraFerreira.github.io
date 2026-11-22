@@ -136,6 +136,8 @@ ol.pubs .num { color: var(--muted); font-size: 0.85rem; padding-top: 2px; }
 .ptitle a:hover { color: var(--accent); }
 .venue { font-size: 0.93rem; color: var(--muted); }
 .venue i { color: var(--ink); }
+.venue a.journal { color: var(--ink); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+.venue a.journal:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .badges { display: inline-flex; gap: 6px; margin-left: 6px; vertical-align: 1px; }
 .badge { font-size: 0.72rem; font-weight: 600; padding: 1px 7px; border-radius: 5px; border: 1px solid var(--rule); color: var(--muted); }
 .badge:hover { text-decoration: none; border-color: var(--accent); color: var(--accent); }

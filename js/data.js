@@ -395,7 +395,8 @@ const DATA = {
      "url": "https://arxiv.org/abs/2605.03815",
      "pdf": "",
      "code": "https://github.com/lfprudente/Broximal",
-     "status": "Submitted"
+     "status": "Submitted",
+     "venueUrl": "https://arxiv.org/abs/2605.03815"
     }
    ]
   },
@@ -418,7 +419,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1137/24m1692319",
      "pdf": "",
-     "code": "https://github.com/lfprudente/RiemannianAL"
+     "code": "https://github.com/lfprudente/RiemannianAL",
+     "venueUrl": "https://epubs.siam.org/journal/sjope8"
     },
     {
      "n": 98,
@@ -437,7 +439,8 @@ const DATA = {
      "url": "https://doi.org/10.1093/imanum/drag043",
      "status": "To appear",
      "pdf": "",
-     "code": "https://github.com/lfprudente/Sl1EPA"
+     "code": "https://github.com/lfprudente/Sl1EPA",
+     "venueUrl": "https://academic.oup.com/imajna"
     },
     {
      "n": 97,
@@ -454,7 +457,8 @@ const DATA = {
      "url": "https://doi.org/10.1093/imanum/draf097",
      "status": "To appear",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://academic.oup.com/imajna"
     },
     {
      "n": 96,
@@ -470,7 +474,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1007/s10915-026-03456-9",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10915"
     },
     {
      "n": 95,
@@ -486,7 +491,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1007/s00245-026-10477-1",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/245"
     },
     {
      "n": 94,
@@ -503,7 +509,8 @@ const DATA = {
      "url": "https://doi.org/10.1080/10556788.2026.2705555",
      "status": "To appear",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/goms20"
     },
     {
      "n": 93,
@@ -518,7 +525,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1007/s10957-026-03119-7",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 92,
@@ -533,7 +541,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1007/s11590-026-02307-8",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/11590"
     },
     {
      "n": 91,
@@ -549,7 +558,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1080/10556788.2026.2640936",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/goms20"
     },
     {
      "n": 90,
@@ -565,7 +575,8 @@ const DATA = {
      "url": "https://doi.org/10.1080/02331934.2026.2736673",
      "status": "To appear",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 89,
@@ -582,7 +593,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1007/s11075-025-02177-8",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/11075"
     },
     {
      "n": 88,
@@ -598,7 +610,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1007/s10957-025-02895-y",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 87,
@@ -613,7 +626,8 @@ const DATA = {
      "year": 2026,
      "url": "https://doi.org/10.1080/02331934.2024.2404164",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 86,
@@ -628,7 +642,8 @@ const DATA = {
      "year": 2025,
      "url": "https://doi.org/10.1080/02331934.2023.2257709",
      "pdf": "https://files.cercomp.ufg.br/weby/up/948/o/CondGradMethMutiOptSumTwo.pdf",
-     "code": "https://github.com/lfprudente/CompositeMOPCondG"
+     "code": "https://github.com/lfprudente/CompositeMOPCondG",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 85,
@@ -643,7 +658,8 @@ const DATA = {
      "year": 2025,
      "url": "https://doi.org/10.23952/jnva.9.2025.4.04",
      "pdf": "https://doi.org/10.23952/jnva.9.2025.4.04",
-     "code": ""
+     "code": "",
+     "venueUrl": "http://jnva.biemdas.com/"
     },
     {
      "n": 84,
@@ -659,7 +675,8 @@ const DATA = {
      "year": 2024,
      "url": "https://doi.org/10.1137/23m1582382",
      "pdf": "https://doi.org/10.1137/23M1582382",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://epubs.siam.org/journal/sjope8"
     },
     {
      "n": 82,
@@ -676,7 +693,8 @@ const DATA = {
      "year": 2024,
      "url": "https://doi.org/10.1016/j.compeleceng.2024.109306",
      "pdf": "https://doi.org/10.1016/j.compeleceng.2024.109306",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/computers-and-electrical-engineering"
     },
     {
      "n": 81,
@@ -691,7 +709,8 @@ const DATA = {
      "year": 2024,
      "url": "https://doi.org/10.1007/s10589-024-00578-4",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 80,
@@ -707,7 +726,8 @@ const DATA = {
      "year": 2024,
      "url": "https://doi.org/10.1007/s10898-024-01390-4",
      "pdf": "https://doi.org/10.1007/s10898-024-01390-4",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 79,
@@ -723,7 +743,8 @@ const DATA = {
      "year": 2024,
      "url": "https://doi.org/10.1007/s10957-024-02392-8",
      "pdf": "https://link.springer.com/article/10.1007/s10957-024-02392-8",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 78,
@@ -739,7 +760,8 @@ const DATA = {
      "year": 2024,
      "url": "https://doi.org/10.1016/j.cam.2023.115638",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics"
     },
     {
      "n": 77,
@@ -754,7 +776,8 @@ const DATA = {
      "year": 2024,
      "url": "https://doi.org/10.1007/s10957-022-02073-4",
      "pdf": "https://rdcu.be/cRzW5",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 76,
@@ -769,7 +792,8 @@ const DATA = {
      "year": 2024,
      "url": "https://doi.org/10.1080/02331934.2022.2103415",
      "pdf": "https://www.tandfonline.com/doi/full/10.1080/02331934.2022.2103415",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 75,
@@ -784,7 +808,8 @@ const DATA = {
      "year": 2023,
      "url": "https://doi.org/10.1007/s10957-023-02332-y",
      "pdf": "https://doi.org/10.1007/s10957-023-02332-y",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 74,
@@ -799,7 +824,8 @@ const DATA = {
      "year": 2023,
      "url": "https://doi.org/10.1007/s10898-022-01264-7",
      "pdf": "https://doi.org/10.1007/s10898-022-01264-7",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 73,
@@ -815,7 +841,8 @@ const DATA = {
      "year": 2023,
      "url": "https://doi.org/10.1007/s10589-022-00438-z",
      "pdf": "https://doi.org/10.1007/s10589-022-00425-4",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 72,
@@ -830,7 +857,8 @@ const DATA = {
      "year": 2023,
      "url": "https://doi.org/10.1007/s10589-022-00425-4",
      "pdf": "https://doi.org/10.1007/s10589-022-00425-4",
-     "code": "https://github.com/lfprudente/GInexPM"
+     "code": "https://github.com/lfprudente/GInexPM",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 71,
@@ -846,7 +874,8 @@ const DATA = {
      "year": 2023,
      "url": "https://doi.org/10.1016/j.jco.2022.101697",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-complexity"
     },
     {
      "n": 70,
@@ -861,7 +890,8 @@ const DATA = {
      "year": 2022,
      "url": "https://doi.org/10.1007/s10589-021-00331-1",
      "pdf": "https://doi.org/10.1007/s10589-021-00331-1",
-     "code": "https://files.cercomp.ufg.br/weby/up/948/o/ISPG.zip"
+     "code": "https://files.cercomp.ufg.br/weby/up/948/o/ISPG.zip",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 69,
@@ -876,7 +906,8 @@ const DATA = {
      "year": 2022,
      "url": "https://doi.org/10.1016/j.cam.2021.113853",
      "pdf": "https://www.sciencedirect.com/science/article/pii/S0377042721004763",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics"
     },
     {
      "n": 68,
@@ -891,7 +922,8 @@ const DATA = {
      "year": 2022,
      "url": "https://doi.org/10.1080/02331934.2021.1902520",
      "pdf": "https://doi.org/10.1080/02331934.2021.1902520",
-     "code": "https://files.cercomp.ufg.br/weby/up/948/o/SInexPD.zip"
+     "code": "https://files.cercomp.ufg.br/weby/up/948/o/SInexPD.zip",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 67,
@@ -905,7 +937,8 @@ const DATA = {
      "year": 2022,
      "url": "https://doi.org/10.1080/02331934.2020.1860980",
      "pdf": "https://www.tandfonline.com/doi/full/10.1080/02331934.2020.1860980",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 66,
@@ -920,7 +953,8 @@ const DATA = {
      "year": 2021,
      "url": "https://doi.org/10.1007/s10589-021-00293-4",
      "pdf": "https://link.springer.com/content/pdf/10.1007/s10589-021-00293-4.pdf",
-     "code": "https://files.cercomp.ufg.br/weby/up/948/o/ACondG.tar.gz"
+     "code": "https://files.cercomp.ufg.br/weby/up/948/o/ACondG.tar.gz",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 65,
@@ -935,7 +969,8 @@ const DATA = {
      "year": 2021,
      "url": "https://doi.org/10.1007/s10589-020-00260-5",
      "pdf": "https://doi.org/10.1007/s10589-020-00260-5",
-     "code": "https://files.cercomp.ufg.br/weby/up/948/o/CondGMO.zip"
+     "code": "https://files.cercomp.ufg.br/weby/up/948/o/CondGMO.zip",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 64,
@@ -950,7 +985,8 @@ const DATA = {
      "year": 2020,
      "url": "https://doi.org/10.1051/cocv/2019040",
      "pdf": "https://doi.org/10.1051/cocv/2019040",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.esaim-cocv.org/"
     },
     {
      "n": 63,
@@ -965,7 +1001,8 @@ const DATA = {
      "year": 2020,
      "url": "https://doi.org/10.1007/s10957-020-01741-7",
      "pdf": "https://rdcu.be/b6EZm",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 62,
@@ -979,7 +1016,8 @@ const DATA = {
      "year": 2020,
      "url": "https://doi.org/10.1007/s10957-020-01656-3",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 61,
@@ -994,7 +1032,8 @@ const DATA = {
      "year": 2020,
      "url": "https://doi.org/10.1007/s10957-019-01615-7",
      "pdf": "",
-     "code": "https://lfprudente.ime.ufg.br/up/948/o/codes.tar"
+     "code": "https://lfprudente.ime.ufg.br/up/948/o/codes.tar",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 60,
@@ -1008,7 +1047,8 @@ const DATA = {
      "year": 2020,
      "url": "https://doi.org/10.1016/j.apnum.2020.04.012",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/applied-numerical-mathematics"
     },
     {
      "n": 59,
@@ -1024,7 +1064,8 @@ const DATA = {
      "year": 2020,
      "url": "https://doi.org/10.1007/s10898-020-00885-0",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 58,
@@ -1039,7 +1080,8 @@ const DATA = {
      "year": 2019,
      "url": "https://doi.org/10.1137/18m1180633",
      "pdf": "",
-     "code": "https://github.com/OrizonPereiraFerreira/riemannian-gradient-lower-curvature"
+     "code": "https://github.com/OrizonPereiraFerreira/riemannian-gradient-lower-curvature",
+     "venueUrl": "https://epubs.siam.org/journal/sjope8"
     },
     {
      "n": 57,
@@ -1054,7 +1096,8 @@ const DATA = {
      "year": 2019,
      "url": "https://doi.org/10.1007/s10589-018-0040-0",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 56,
@@ -1069,7 +1112,8 @@ const DATA = {
      "year": 2019,
      "url": "https://doi.org/10.1016/j.laa.2018.10.011",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/linear-algebra-and-its-applications"
     },
     {
      "n": 55,
@@ -1083,7 +1127,8 @@ const DATA = {
      "year": 2019,
      "url": "https://doi.org/10.1007/s10898-018-0710-6",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 54,
@@ -1098,7 +1143,8 @@ const DATA = {
      "year": 2019,
      "url": "https://doi.org/10.1080/02331934.2018.1542532",
      "pdf": "https://www.tandfonline.com/eprint/sBxPRxesQ6Jhmz3GnmqY/full",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 53,
@@ -1112,7 +1158,8 @@ const DATA = {
      "year": 2019,
      "url": "https://doi.org/10.1080/00036811.2018.1430779",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gapa20"
     },
     {
      "n": 52,
@@ -1126,7 +1173,8 @@ const DATA = {
      "year": 2018,
      "url": "https://doi.org/10.1016/j.jmaa.2017.09.023",
      "pdf": "https://authors.elsevier.com/c/1Vul5,WNxV29f",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-mathematical-analysis-and-applications"
     },
     {
      "n": 51,
@@ -1142,7 +1190,8 @@ const DATA = {
      "year": 2018,
      "url": "https://doi.org/10.1007/s10957-018-1258-9",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 50,
@@ -1156,7 +1205,8 @@ const DATA = {
      "year": 2018,
      "url": "https://doi.org/10.1007/s10898-017-0587-9",
      "pdf": "http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSL-2B3YavIg234TxabG2qA3D8-3D_yFpzCk4bNHnL33gBD-2B6p-2F4o8jpUBuovIX6ZUEiYG1zfjc7odvKwRi4GT-2FjJWYEZpQ3UFuMlYG-2B1H54CPstaeZiBLj0GFX-2BFIGuitOfu9CV5Clhwal-2BhTWvfMgGUs30tmmIBUjpdAXC0ZhYavqrG7KOeV2G6KvAE8W-2Binw7bL-2FPhk0cAtRfLBRQILJRuOrruXzND9oJpkpSI-2FI1bP7kkzsDROqZ0Ttie9GD2BCXroJn9vt7wupZ9Zg54GaA11h-2Bi2pPFQYbQd1WVCpoamiMQJGA-3D-3D",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 49,
@@ -1171,7 +1221,8 @@ const DATA = {
      "year": 2018,
      "url": "https://doi.org/10.1007/s11590-017-1114-0",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/11590"
     },
     {
      "n": 48,
@@ -1186,7 +1237,8 @@ const DATA = {
      "year": 2018,
      "url": "https://doi.org/10.1016/j.orl.2017.10.017",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/operations-research-letters"
     },
     {
      "n": 47,
@@ -1200,7 +1252,8 @@ const DATA = {
      "year": 2017,
      "url": "https://doi.org/10.1137/16m1098012",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/KantNewGenEqSemiLocalArxiv.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://epubs.siam.org/journal/sjope8"
     },
     {
      "n": 46,
@@ -1215,7 +1268,8 @@ const DATA = {
      "year": 2017,
      "url": "https://doi.org/10.1007/s10957-017-1195-z",
      "pdf": "http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSMLUlbz8DQ6Qbw3gf-2BUr9aA-3D_yFpzCk4bNHnL33gBD-2B6p-2F5dS143bbPu4oryrwWXa-2BTGC98nWkqGBl3ew63TzvhUFme083tc3KZHwlKOPxR51wpi7Cs8S1S-2BfeYrLZQpribS4Jt0-2B-2BvRtPTH8N8UgdjjkA33EqBBJhXj1g5mPAL18BT8jfV-2FgjKa-2BzxiWCb-2F0l5fHcSpJ0TVUTWs3rkIfXy0cAcBx3vcAZVcDrjr4Xr6G16iuWHSZYTgM8-2Bpqr5t434MJtq9JmUcrGLHchPr5xlX7Wqg5si8HmKw9vMoeydIXrw-3D-3D",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 45,
@@ -1230,7 +1284,8 @@ const DATA = {
      "year": 2017,
      "url": "https://doi.org/10.1007/s10957-017-1107-2",
      "pdf": "http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSN-2B2zV6wmjVZsvMvsmL8XBA-3D_yFpzCk4bNHnL33gBD-2B6p-2F1RiFD3-2B6Nq9naNGCnRD3JAiWN0Q25WKPnoqVE6PybNeij2J-2BhucW5BBgvgB-2B1WtTIRrhO4MQVh1-2F6BMkZY5gPwAeXjDQoSVUcBKWr9mhbHlhD6rTIEj3G3KZI-2BJIiomqs8kLQ7mn2Noj6Ks1sqmEW4mnc7lY3f9DbtVDirlPr26I1t4WlzdcXjsAUlXnHKOncUwr8aNth2TdHG-2BNJSWOPF4QJ3RE29HOdGrpseZJ4IfAUtbh96tOeDYZ-2BO1DXG-2F8w-3D-3D",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 44,
@@ -1245,7 +1300,8 @@ const DATA = {
      "year": 2017,
      "url": "https://doi.org/10.1007/s10957-017-1093-4",
      "pdf": "http://em.rdcu.be/wf/click?upn=KP7O1RED-2BlD0F9LDqGVeSNAtrmWI6q0rXaU6TjrnH2g-3D_yFpzCk4bNHnL33gBD-2B6p-2Fysl-2Fzs1JnoDk6sUbvKfqqF6h27gGWmbnjq-2BzJ6LJLsoQ-2BWbFL9g8Gyv-2FxB7wNVlu8uKmDdaX98UaGeYMLTV6kyxkXWgibUIlvk1y-2BblRH-2Ffv2SAwZ6S5mxvqsVgiVFGyOQP2aFa8mOAJvbA1UXuKC-2FPBHHxgIwjFhLdVy-2BL9rJUBsr5xPemiM5Fgtftzt0ZP2hIIUlsrd-2FyuggmTZlf8K23CFMNzG4a3JXkeUEx3Sd9F7WXee9K2yL9lsOj2PG-2Bbw-3D-3D",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 43,
@@ -1261,7 +1317,8 @@ const DATA = {
      "year": 2017,
      "url": "https://doi.org/10.1016/j.laa.2016.10.007",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/NM_PWLS_Lorentz05May2016.pdf",
-     "code": "https://github.com/OrizonPereiraFerreira/semismooth-newton-second-order-cone"
+     "code": "https://github.com/OrizonPereiraFerreira/semismooth-newton-second-order-cone",
+     "venueUrl": "https://www.sciencedirect.com/journal/linear-algebra-and-its-applications"
     },
     {
      "n": 42,
@@ -1275,7 +1332,8 @@ const DATA = {
      "year": 2017,
      "url": "https://doi.org/10.1007/s10898-016-0472-y",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 41,
@@ -1290,7 +1348,8 @@ const DATA = {
      "year": 2016,
      "url": "https://doi.org/10.1007/s10957-016-0982-2",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/EnlarMaonVectFields_1511.08301v1.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 40,
@@ -1305,7 +1364,8 @@ const DATA = {
      "year": 2016,
      "url": "https://doi.org/10.1007/s10589-016-9837-x",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/VAEInexact15February2016.pdf",
-     "code": "https://github.com/OrizonPereiraFerreira/inexact-semismooth-newton-ave"
+     "code": "https://github.com/OrizonPereiraFerreira/inexact-semismooth-newton-ave",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 39,
@@ -1321,7 +1381,8 @@ const DATA = {
      "year": 2016,
      "url": "https://doi.org/10.1016/j.cam.2016.01.040",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": "https://github.com/OrizonPereiraFerreira/semismooth-newton-piecewise-linear"
+     "code": "https://github.com/OrizonPereiraFerreira/semismooth-newton-piecewise-linear",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics"
     },
     {
      "n": 38,
@@ -1336,7 +1397,8 @@ const DATA = {
      "year": 2015,
      "url": "https://doi.org/10.1007/s10957-015-0761-5",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/EdvGlayOri_uni1.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 37,
@@ -1351,7 +1413,8 @@ const DATA = {
      "year": 2015,
      "url": "https://doi.org/10.1016/j.laa.2015.03.040",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/simcoprojPicard-26Nov2014.pdf",
-     "code": "https://github.com/OrizonPereiraFerreira/picard-simplicial-cone-projection"
+     "code": "https://github.com/OrizonPereiraFerreira/picard-simplicial-cone-projection",
+     "venueUrl": "https://www.sciencedirect.com/journal/linear-algebra-and-its-applications"
     },
     {
      "n": 36,
@@ -1365,7 +1428,8 @@ const DATA = {
      "year": 2015,
      "url": "https://doi.org/10.1016/j.amc.2015.03.080",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/NewtonLocRiemInexat.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/applied-mathematics-and-computation"
     },
     {
      "n": 35,
@@ -1378,7 +1442,8 @@ const DATA = {
      "year": 2015,
      "url": "https://doi.org/10.1016/j.cam.2014.11.019",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/1-s2.0-S0377042714004981-main.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics"
     },
     {
      "n": 34,
@@ -1393,7 +1458,8 @@ const DATA = {
      "year": 2015,
      "url": "https://doi.org/10.1080/02331934.2012.745531",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProxSclass_2012.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 33,
@@ -1407,7 +1473,8 @@ const DATA = {
      "year": 2015,
      "url": "https://doi.org/10.1007/s11590-014-0775-1",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/s11590-014-0775-1.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/11590"
     },
     {
      "n": 32,
@@ -1422,7 +1489,8 @@ const DATA = {
      "year": 2014,
      "url": "https://doi.org/10.1007/s11750-014-0322-3",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/CTOS_TOP.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/11750"
     },
     {
      "n": 31,
@@ -1437,7 +1505,8 @@ const DATA = {
      "year": 2013,
      "url": "https://doi.org/10.1137/110841606",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/110841606.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://epubs.siam.org/journal/sjope8"
     },
     {
      "n": 30,
@@ -1453,7 +1522,8 @@ const DATA = {
      "year": 2013,
      "url": "https://doi.org/10.1007/s10589-012-9494-7",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/SubGradMultObjOpt_2012.pdf?1340556433",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 29,
@@ -1468,7 +1538,8 @@ const DATA = {
      "year": 2013,
      "url": "https://doi.org/10.1007/s10898-012-9914-3",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProjSphere_2012.pdf?1337539162%20",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 28,
@@ -1482,7 +1553,8 @@ const DATA = {
      "year": 2012,
      "url": "https://doi.org/10.1093/imanum/drr048",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/LocNewRiem_2012.pdf?1332014887",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://academic.oup.com/imajna"
     },
     {
      "n": 27,
@@ -1496,7 +1568,8 @@ const DATA = {
      "year": 2012,
      "url": "https://doi.org/10.1080/02331934.2010.538057",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/IsoProjCone_2012_1.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 26,
@@ -1511,7 +1584,8 @@ const DATA = {
      "year": 2012,
      "url": "https://doi.org/10.1007/s10957-011-9984-2",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/GradVetoRiem2012.pdf?1332015042",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 25,
@@ -1525,7 +1599,8 @@ const DATA = {
      "year": 2012,
      "url": "https://doi.org/10.1016/j.jco.2012.02.002",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/RobusInexNew_2012.pdf?1334711614%20",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-complexity"
     },
     {
      "n": 24,
@@ -1539,7 +1614,8 @@ const DATA = {
      "year": 2012,
      "url": "https://doi.org/10.1007/s10898-011-9714-1",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/GenProj_2012.pdf?1332015227",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 23,
@@ -1554,7 +1630,8 @@ const DATA = {
      "year": 2012,
      "url": "https://doi.org/10.1016/j.cam.2011.12.008",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/LocGauNew_2012.pdf?1332014971",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics"
     },
     {
      "n": 22,
@@ -1569,7 +1646,8 @@ const DATA = {
      "year": 2011,
      "url": "https://doi.org/10.1016/j.jco.2010.09.001",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/LocGausNew_2011.pdf?1332016936",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-complexity"
     },
     {
      "n": 21,
@@ -1582,7 +1660,8 @@ const DATA = {
      "year": 2011,
      "url": "https://doi.org/10.1016/j.cam.2010.08.038",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/LocNewGeral_2011.pdf?1332016545",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-computational-and-applied-mathematics"
     },
     {
      "n": 20,
@@ -1596,7 +1675,8 @@ const DATA = {
      "year": 2011,
      "url": "https://doi.org/10.1007/s10589-009-9249-2",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/LocInxNew_2011.pdf?1332016516",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 19,
@@ -1611,7 +1691,8 @@ const DATA = {
      "year": 2010,
      "url": "https://doi.org/10.1016/j.na.2010.03.057",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/LocProxHad_2010.pdf?1332017632",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/nonlinear-analysis"
     },
     {
      "n": 18,
@@ -1624,7 +1705,8 @@ const DATA = {
      "year": 2009,
      "url": "https://doi.org/10.1093/imanum/drn036",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/LocNew_2009.pdf?1332017782",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://academic.oup.com/imajna"
     },
     {
      "n": 17,
@@ -1638,7 +1720,8 @@ const DATA = {
      "year": 2009,
      "url": "https://doi.org/10.1007/s10589-007-9082-4",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/MajPrinc_2009.pdf?1332017892",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10589"
     },
     {
      "n": 16,
@@ -1653,7 +1736,8 @@ const DATA = {
      "year": 2009,
      "url": "https://doi.org/10.1007/s10898-008-9367-x",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProxSDP_2009.pdf?1332017979",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 15,
@@ -1666,7 +1750,8 @@ const DATA = {
      "year": 2008,
      "url": "https://doi.org/10.1016/j.na.2006.12.038",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/DiniDerRiem_2008.pdf?1332018101",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/nonlinear-analysis"
     },
     {
      "n": 14,
@@ -1682,7 +1767,8 @@ const DATA = {
      "year": 2008,
      "url": "https://doi.org/10.1007/s10957-008-9422-2",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/CentPathProxPointMethRiem_2008.pdf?1332018221",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     },
     {
      "n": 13,
@@ -1698,7 +1784,8 @@ const DATA = {
      "year": 2007,
      "url": "https://doi.org/10.1080/10556780600565083",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/_DualConvPProx_2007_1.pdf?1355693798",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/goms20"
     },
     {
      "n": 12,
@@ -1711,7 +1798,8 @@ const DATA = {
      "year": 2006,
      "url": "https://doi.org/10.1016/j.jmaa.2005.04.048",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ConvDifEqu_2006.pdf?1332018569",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-mathematical-analysis-and-applications"
     },
     {
      "n": 11,
@@ -1724,7 +1812,8 @@ const DATA = {
      "year": 2006,
      "url": "https://doi.org/10.1016/j.jmaa.2005.08.049",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProxSubRiem_2006.pdf?1332018884",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-mathematical-analysis-and-applications"
     },
     {
      "n": 10,
@@ -1740,7 +1829,8 @@ const DATA = {
      "year": 2006,
      "url": "https://doi.org/10.1007/s10898-005-6741-9",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ConvMonTrans_2006.pdf?1332018765",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 9,
@@ -1755,7 +1845,8 @@ const DATA = {
      "year": 2005,
      "url": "https://doi.org/10.1007/s10107-004-0555-2",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/CentralPathSDP_2005.pdf?1332019012",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10107"
     },
     {
      "n": 8,
@@ -1770,7 +1861,8 @@ const DATA = {
      "year": 2005,
      "url": "https://doi.org/10.1007/s10898-003-3780-y",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/SingMonExtraGrad_2005.pdf?1332019309",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10898"
     },
     {
      "n": 7,
@@ -1784,7 +1876,8 @@ const DATA = {
      "year": 2002,
      "url": "https://doi.org/10.1006/jcom.2001.0582",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/KantNewtRiem_2002.pdf?1332019904",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.sciencedirect.com/journal/journal-of-complexity"
     },
     {
      "n": 6,
@@ -1799,7 +1892,8 @@ const DATA = {
      "year": 2002,
      "url": "https://doi.org/10.1023/a:1015643612729",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ContMonVecFields_2002.pdf?1332019807",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10474"
     },
     {
      "n": 5,
@@ -1813,7 +1907,8 @@ const DATA = {
      "year": 2002,
      "url": "https://doi.org/10.1080/02331930290019413",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProxPointMeth2.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.tandfonline.com/journals/gopt20"
     },
     {
      "n": 4,
@@ -1828,7 +1923,8 @@ const DATA = {
      "year": 2000,
      "url": "http://www.emis.de/journals/BJGA/v5n1/v5n1.htm",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/PTSBalkan_2000.pdf?1332191561",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.emis.de/journals/BJGA/"
     },
     {
      "n": 3,
@@ -1842,7 +1938,8 @@ const DATA = {
      "year": 2000,
      "url": "",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/Q_QaudraNewton_2000.pdf?1332191717",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.diogenes.bg/ijam/"
     },
     {
      "n": 2,
@@ -1857,7 +1954,8 @@ const DATA = {
      "year": 1999,
      "url": "http://www.emis.de/journals/BJGA/v4n2/v4n2.htm",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProximalRegSteDes_1999.pdf?1332020283",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://www.emis.de/journals/BJGA/"
     },
     {
      "n": 1,
@@ -1871,7 +1969,8 @@ const DATA = {
      "year": 1998,
      "url": "https://doi.org/10.1023/a:1022675100677",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/SubRieman_1998.pdf?1332020403",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10957"
     }
    ]
   },
@@ -1892,7 +1991,8 @@ const DATA = {
      "year": 2020,
      "url": "https://doi.org/10.1007/978-3-030-31351-7_18",
      "pdf": "",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://link.springer.com/book/10.1007/978-3-030-31351-7"
     }
    ]
   },
@@ -1913,7 +2013,8 @@ const DATA = {
      "year": 2022,
      "url": "https://arxiv.org/abs/2208.07909",
      "pdf": "https://arxiv.org/pdf/2208.07909.pdf",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://arxiv.org/abs/2208.07909"
     },
     {
      "n": 3,
@@ -1928,7 +2029,8 @@ const DATA = {
      "url": "https://arxiv.org/abs/2107.04453",
      "pdf": "https://arxiv.org/pdf/2107.04453.pdf",
      "url2": "https://www.geogebra.org/m/j9hx3abd",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://arxiv.org/abs/2107.04453"
     },
     {
      "n": 2,
@@ -1957,7 +2059,8 @@ const DATA = {
      "year": 2012,
      "url": "https://arxiv.org/abs/1209.5704",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/KantNewt_2012_1209.5704v1.pdf?1351508016",
-     "code": ""
+     "code": "",
+     "venueUrl": "https://arxiv.org/abs/1209.5704"
     }
    ]
   },
