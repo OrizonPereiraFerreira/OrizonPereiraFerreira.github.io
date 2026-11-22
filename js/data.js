@@ -298,6 +298,7 @@ const DATA = {
    }
   ]
  },
+ "people": {},
  "codeNote": "Codes of other papers are linked under each publication.",
  "publications": [
   {
@@ -628,7 +629,7 @@ const DATA = {
      "ref": "88(3), 783–818",
      "year": 2024,
      "url": "https://doi.org/10.1007/s10589-024-00578-4",
-     "pdf": "/admin/pages/3371-publications/A%20boosted DC algorithm for non-differentiable DC components with non-monotone line search",
+     "pdf": "",
      "code": ""
     },
     {
@@ -783,7 +784,7 @@ const DATA = {
      "ref": "74, 101697",
      "year": 2023,
      "url": "https://doi.org/10.1016/j.jco.2022.101697",
-     "pdf": "ttps://doi.org/10.1016/j.jco.2022.101697",
+     "pdf": "",
      "code": ""
     },
     {
@@ -1380,7 +1381,7 @@ const DATA = {
     {
      "n": 30,
      "authors": [
-      "J. X. Da Cruz Neto",
+      "J. X. Cruz Neto",
       "G. J. P. da Silva",
       "O. P. Ferreira",
       "J. O. Lopes"
