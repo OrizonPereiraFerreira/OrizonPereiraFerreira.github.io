@@ -56,7 +56,6 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
 .navbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 50px; }
 .navbar .brand { font: 600 1.05rem var(--serif); color: var(--ink); white-space: nowrap; }
 .navbar .brand:hover { text-decoration: none; color: var(--accent); }
-body { padding-top: 51px; }
 .navbar nav { display: flex; flex-wrap: wrap; gap: 0 26px; }
 .navbar nav a {
   color: var(--muted); padding: 15px 0 13px; border-bottom: 2px solid transparent;
@@ -68,7 +67,20 @@ main > section[hidden] { display: none; }
 
 /* Layout */
 .layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 48px; padding-top: 36px; padding-bottom: 64px; }
-aside { position: sticky; top: 72px; align-self: start; font-size: 0.93rem; }
+aside {
+  position: sticky; top: 24px; align-self: start; font-size: 0.93rem;
+  max-height: calc(100vh - 48px); overflow-y: auto; scrollbar-width: thin;
+}
+/* Section menu under the photo, as on the UFG page; on phones the top bar is used instead */
+.sidenav { display: flex; flex-direction: column; margin: -8px 0 26px; }
+.sidenav a {
+  padding: 9px 12px; border-left: 3px solid transparent; color: var(--ink);
+  font-weight: 500; border-bottom: 1px solid var(--rule);
+}
+.sidenav a:hover { text-decoration: none; background: var(--accent-soft); }
+.sidenav a.active { border-left-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
+.navbar { display: none; }
+body { padding-top: 0; }
 aside .photo {
   display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
   border-radius: 10px; border: 1px solid var(--rule); margin-bottom: 26px; background: #fff;
@@ -163,7 +175,10 @@ footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85
 
 @media (max-width: 820px) {
   .layout { grid-template-columns: 1fr; gap: 32px; }
-  aside { position: static; }
+  aside { position: static; max-height: none; overflow: visible; }
+  .sidenav { display: none; }
+  .navbar { display: block; }
+  body { padding-top: 51px; }
   aside .photo { width: 180px; }
   .masthead h1 { font-size: 2rem; }
   .navbar .brand { display: none; }

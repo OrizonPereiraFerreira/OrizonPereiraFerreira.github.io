@@ -123,7 +123,7 @@
 
   // The menu works as tabs: only the selected section is shown, and the bar stays on screen.
   const sections = Array.from(document.querySelectorAll("main > section"));
-  const navLinks = Array.from(document.querySelectorAll(".navbar nav a"));
+  const navLinks = Array.from(document.querySelectorAll(".navbar nav a, .sidenav a"));
   function show(id) {
     if (!sections.some((s) => s.id === id)) id = sections[0].id;
     sections.forEach((s) => { s.hidden = s.id !== id; });
