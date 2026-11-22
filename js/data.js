@@ -12,6 +12,54 @@ const DATA = {
    "venue": "Manuscript, 2026"
   },
   {
+   "repo": "riemannian-gradient-lower-curvature",
+   "url": "https://github.com/OrizonPereiraFerreira/riemannian-gradient-lower-curvature",
+   "language": "MATLAB",
+   "title": "Gradient Method for Optimization on Riemannian Manifolds with Lower Bounded Curvature",
+   "authors": "O. P. Ferreira, M. S. Louzeiro, L. F. Prudente",
+   "venue": "SIAM Journal on Optimization, 2019"
+  },
+  {
+   "repo": "semismooth-newton-second-order-cone",
+   "url": "https://github.com/OrizonPereiraFerreira/semismooth-newton-second-order-cone",
+   "language": "MATLAB",
+   "title": "A semi-smooth Newton method for projection equations and linear complementarity problems with respect to the second order cone",
+   "authors": "J. Y. Bello Cruz, O. P. Ferreira, S. Z. Németh, L. F. Prudente",
+   "venue": "Linear Algebra and its Applications, 2017"
+  },
+  {
+   "repo": "inexact-semismooth-newton-ave",
+   "url": "https://github.com/OrizonPereiraFerreira/inexact-semismooth-newton-ave",
+   "language": "MATLAB",
+   "title": "On the global convergence of the inexact semi-smooth Newton method for absolute value equation",
+   "authors": "J. Y. Bello Cruz, O. P. Ferreira, L. F. Prudente",
+   "venue": "Computational Optimization and Applications, 2016"
+  },
+  {
+   "repo": "semismooth-newton-piecewise-linear",
+   "url": "https://github.com/OrizonPereiraFerreira/semismooth-newton-piecewise-linear",
+   "language": "MATLAB",
+   "title": "A semi-smooth Newton method for a special piecewise linear system with application to positively constrained convex quadratic programming",
+   "authors": "J. G. Barrios, J. Y. Bello Cruz, O. P. Ferreira, S. Z. Németh",
+   "venue": "Journal of Computational and Applied Mathematics, 2016"
+  },
+  {
+   "repo": "picard-simplicial-cone-projection",
+   "url": "https://github.com/OrizonPereiraFerreira/picard-simplicial-cone-projection",
+   "language": "MATLAB",
+   "title": "Projection onto simplicial cones by Picard's method",
+   "authors": "J. G. Barrios, O. P. Ferreira, S. Z. Németh",
+   "venue": "Linear Algebra and its Applications, 2015"
+  },
+  {
+   "repo": "semismooth-newton-simplicial-qp",
+   "url": "https://github.com/OrizonPereiraFerreira/semismooth-newton-simplicial-qp",
+   "language": "MATLAB",
+   "title": "A semi-smooth Newton method for solving convex quadratic programming problem under simplicial cone constraint",
+   "authors": "J. G. Barrios, O. P. Ferreira, S. Z. Németh",
+   "venue": "Preprint, 2015"
+  },
+  {
    "repo": "lfprudente/RiemannianAL",
    "url": "https://github.com/lfprudente/RiemannianAL",
    "language": "hosted by L. F. Prudente",
@@ -731,7 +779,7 @@ const DATA = {
      "year": 2019,
      "url": "https://doi.org/10.1137/18m1180633",
      "pdf": "",
-     "code": "https://files.cercomp.ufg.br/weby/up/328/o/codes.tar.gz"
+     "code": "https://github.com/OrizonPereiraFerreira/riemannian-gradient-lower-curvature"
     },
     {
      "n": 57,
@@ -953,7 +1001,7 @@ const DATA = {
      "year": 2017,
      "url": "https://doi.org/10.1016/j.laa.2016.10.007",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/NM_PWLS_Lorentz05May2016.pdf",
-     "code": "https://files.cercomp.ufg.br/weby/up/328/o/MATLAB_codes.tar.gz"
+     "code": "https://github.com/OrizonPereiraFerreira/semismooth-newton-second-order-cone"
     },
     {
      "n": 42,
@@ -997,7 +1045,7 @@ const DATA = {
      "year": 2016,
      "url": "https://doi.org/10.1007/s10589-016-9837-x",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/VAEInexact15February2016.pdf",
-     "code": "https://files.cercomp.ufg.br/weby/up/328/o/AVE_Code.zip"
+     "code": "https://github.com/OrizonPereiraFerreira/inexact-semismooth-newton-ave"
     },
     {
      "n": 39,
@@ -1013,7 +1061,7 @@ const DATA = {
      "year": 2016,
      "url": "https://doi.org/10.1016/j.cam.2016.01.040",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/ProbMult31Mar2015.pdf",
-     "code": "https://files.cercomp.ufg.br/weby/up/328/o/ProgramMatLabAgo2015.zip"
+     "code": "https://github.com/OrizonPereiraFerreira/semismooth-newton-piecewise-linear"
     },
     {
      "n": 38,
@@ -1043,7 +1091,7 @@ const DATA = {
      "year": 2015,
      "url": "https://doi.org/10.1016/j.laa.2015.03.040",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/simcoprojPicard-26Nov2014.pdf",
-     "code": "https://files.cercomp.ufg.br/weby/up/328/o/Programs.zip"
+     "code": "https://github.com/OrizonPereiraFerreira/picard-simplicial-cone-projection"
     },
     {
      "n": 36,
@@ -1635,7 +1683,7 @@ const DATA = {
      "year": 2015,
      "url": "",
      "pdf": "https://files.cercomp.ufg.br/weby/up/328/o/A_semi-smooth_Newton_method_for_solving_convex_quadratic_programming_problem_under_simplicial_cone_constraint_arXiv.pdf",
-     "code": "https://files.cercomp.ufg.br/weby/up/328/o/ProgramsPaperSubmited.rar"
+     "code": "https://github.com/OrizonPereiraFerreira/semismooth-newton-simplicial-qp"
     },
     {
      "n": 1,
