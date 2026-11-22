@@ -29,7 +29,8 @@
   }
 }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+/* Always reserve the scrollbar's space: switching between short and long tabs must not shift the page sideways */
+html { scroll-behavior: smooth; overflow-y: scroll; scrollbar-gutter: stable; }
 body {
   margin: 0;
   background: var(--bg);
