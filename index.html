@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orizon P. Ferreira</title>
+  <meta name="description" content="Orizon P. Ferreira, Professor at the Institute of Mathematics and Statistics, Federal University of Goiás. Continuous optimization and optimization on Riemannian manifolds.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <h1>Orizon P. Ferreira</h1>
+      <p class="role">Professor of Mathematics · Institute of Mathematics and Statistics · Federal University of Goiás</p>
+      <nav aria-label="Sections">
+        <a href="#about">About</a>
+        <a href="#code">Code</a>
+        <a href="#publications">Publications</a>
+        <a href="#supervision">Supervision</a>
+        <a href="#service">Service</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrap layout">
+    <aside>
+      <img class="photo" src="assets/photo.jpg" alt="Orizon P. Ferreira" width="500" height="625">
+      <section>
+        <h2>Profiles</h2>
+        <ul>
+          <li><a href="http://lattes.cnpq.br/0201145506453251">CV Lattes</a><span>CNPq</span></li>
+          <li><a href="https://orcid.org/0000-0002-5758-0320">ORCID</a><span>0000-0002-5758-0320</span></li>
+          <li><a href="https://scholar.google.com/citations?user=Gj5lA-YAAAAJ">Google Scholar</a><span>citations</span></li>
+          <li><a href="https://mathscinet.ams.org/mathscinet/MRAuthorID/633765">MathSciNet</a><span>633765</span></li>
+          <li><a href="https://www.researchgate.net/profile/Orizon_Ferreira">ResearchGate</a><span></span></li>
+          <li><a href="https://github.com/OrizonPereiraFerreira">GitHub</a><span>code</span></li>
+          <li><a href="https://optimization.ime.ufg.br/">Optimization Group</a><span>IME/UFG</span></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <address>
+          IME, Universidade Federal de Goiás<br>
+          Campus II, 74690-900<br>
+          Goiânia, GO, Brazil<br>
+          orizon (at) ufg.br
+        </address>
+      </section>
+    </aside>
+
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="lead">
+          <p>I am a Professor at the <a href="https://www.ime.ufg.br">Institute of Mathematics and Statistics</a> of the <a href="https://www.ufg.br">Federal University of Goiás</a>. My research is on theory and methods for continuous optimization, with special interest in optimization methods designed for Riemannian manifolds.</p>
+          <p>I received a Ph.D. in Systems Engineering and Computing from the Federal University of Rio de Janeiro in 1997, a master's degree in Mathematics from <a href="https://impa.br">IMPA</a> and a degree in Mathematics from the Federal University of Goiás. Code for my recent papers is on <a href="https://github.com/OrizonPereiraFerreira">GitHub</a>, one repository per paper.</p>
+        </div>
+        <figure>
+          <img src="assets/sphere-iterates.png" alt="Iterates of a Riemannian subgradient method on the two-dimensional sphere, with diminishing and truncated step sizes reaching different local minimizers." width="868" height="380">
+          <figcaption>Iterates of a Riemannian subgradient method for rank-one L<sub>1</sub>-PCA on the sphere, with diminishing (left) and truncated (right) step sizes from the same initial point. From Ferreira, Louzeiro and Németh (2026).</figcaption>
+        </figure>
+      </section>
+
+      <section id="code">
+        <h2>Code <small id="code-count"></small></h2>
+        <div class="cards" id="code-cards"></div>
+        <p class="note" id="code-note"></p>
+      </section>
+
+      <section id="publications">
+        <h2>Publications <small id="pub-count"></small></h2>
+        <div class="toolbar">
+          <input type="search" id="pub-search" placeholder="Search by author, title or journal" aria-label="Search publications">
+          <label><input type="checkbox" id="pub-code"> With code</label>
+          <span class="count" id="pub-shown"></span>
+        </div>
+        <div id="pub-list"></div>
+      </section>
+
+      <section id="supervision">
+        <h2>Supervision</h2>
+        <div id="students"></div>
+      </section>
+
+      <section id="service">
+        <h2>Service</h2>
+        <h3>Editorial boards</h3>
+        <ul class="plain">
+          <li><a href="https://link.springer.com/journal/40314">Computational and Applied Mathematics</a></li>
+          <li><a href="https://ojmo.centre-mersenne.org/">Open Journal of Mathematical Optimization</a></li>
+          <li><a href="https://tulipa-os.com/oper/editorial_board.php">Optimization Eruditorum</a></li>
+        </ul>
+        <h3>Forthcoming events</h3>
+        <ul class="plain">
+          <li><a href="https://woptr.ime.ufg.br/">5th Workshop on Continuous Optimization in Riemannian Manifolds</a>, Goiânia, Brazil, May 4–5, 2027.</li>
+          <li><a href="https://ismp2027.mathopt.nl/">International Symposium on Mathematical Programming (ISMP 2027)</a>, Amsterdam, July 25–30, 2027.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="wrap">Orizon P. Ferreira · IME/UFG · Updated <span id="updated"></span></div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
