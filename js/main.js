@@ -6,7 +6,13 @@
   const el = (id) => document.getElementById(id);
 
   function authors(list) {
-    return list.map((a) => (ME.test(a) ? "<b>" + esc(a) + "</b>" : esc(a))).join(", ");
+    const P = DATA.people || {};
+    return list
+      .map((a) => {
+        if (ME.test(a)) return "<b>" + esc(a) + "</b>";
+        return P[a] ? "<a class='coauthor' href='" + esc(P[a]) + "'>" + esc(a) + "</a>" : esc(a);
+      })
+      .join(", ");
   }
 
   function badges(p) {
@@ -115,9 +121,19 @@
     a.rel = "noopener noreferrer";
   });
 
-  // The lists are built by this script, so jump to the requested section once they exist.
-  if (location.hash) {
-    const target = document.getElementById(location.hash.slice(1));
-    if (target) target.scrollIntoView();
+  // The menu works as tabs: only the selected section is shown, and the bar stays on screen.
+  const sections = Array.from(document.querySelectorAll("main > section"));
+  const navLinks = Array.from(document.querySelectorAll(".navbar nav a"));
+  function show(id) {
+    if (!sections.some((s) => s.id === id)) id = sections[0].id;
+    sections.forEach((s) => { s.hidden = s.id !== id; });
+    navLinks.forEach((a) => {
+      const on = a.getAttribute("href") === "#" + id;
+      a.classList.toggle("active", on);
+      if (on) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+    });
+    window.scrollTo(0, 0);
   }
+  window.addEventListener("hashchange", () => show(location.hash.slice(1)));
+  show(location.hash.slice(1));
 })();
