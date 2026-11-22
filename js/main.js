@@ -29,20 +29,6 @@
     );
   }
 
-  // Code
-  el("code-cards").innerHTML = DATA.code
-    .map(
-      (r) =>
-        "<div class='card'><div class='repo'>" + esc(r.repo) + "</div>" +
-        "<div class='ptitle'>" + r.title + "</div>" +
-        "<div class='meta'>" + esc(r.authors) + ". " + esc(r.venue) + "</div>" +
-        "<div class='row'><span class='chip'>" + esc(r.language) + "</span>" +
-        "<a href='" + esc(r.url) + "'>Repository →</a></div></div>"
-    )
-    .join("");
-  el("code-count").textContent = DATA.code.length + " repositories";
-  el("code-note").innerHTML = DATA.codeNote || "";
-
   // Publications
   const groups = DATA.publications; // [{name, items:[...]}]
   const total = groups.reduce((s, g) => s + g.items.length, 0);
