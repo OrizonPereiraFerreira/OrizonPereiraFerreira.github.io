@@ -121,9 +121,16 @@
     a.rel = "noopener noreferrer";
   });
 
+  // The header is fixed; the page starts below it, whatever its height on this screen.
+  const head = document.querySelector(".masthead");
+  const setHead = () => document.documentElement.style.setProperty("--head", head.offsetHeight + "px");
+  setHead();
+  window.addEventListener("resize", setHead);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(setHead);
+
   // The menu works as tabs: only the selected section is shown, and the bar stays on screen.
   const sections = Array.from(document.querySelectorAll("main > section"));
-  const navLinks = Array.from(document.querySelectorAll(".navbar nav a, .sidenav a"));
+  const navLinks = Array.from(document.querySelectorAll(".masthead nav a"));
   function show(id) {
     if (!sections.some((s) => s.id === id)) id = sections[0].id;
     sections.forEach((s) => { s.hidden = s.id !== id; });
