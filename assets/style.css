@@ -175,7 +175,7 @@ details.past[open] summary { margin-bottom: 4px; }
 
 footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; padding: 18px 0 40px; }
 /* Very short windows: the side column scrolls with the page instead of on its own */
-@media (max-height: 660px) and (min-width: 821px) {
+@media (max-height: 700px) and (min-width: 821px) {
   .aside-inner { position: static; max-height: none; overflow: visible; }
 }
 
