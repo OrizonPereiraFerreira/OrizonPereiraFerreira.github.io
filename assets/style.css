@@ -69,26 +69,27 @@ main > section[hidden] { display: none; }
 
 /* Layout */
 .layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 48px; padding-top: 36px; padding-bottom: 64px; }
-aside { align-self: start; font-size: 0.93rem; }
+aside { align-self: start; font-size: 0.86rem; }
 /* The side column (photo, profiles, contact) is pinned to the window and does not move */
 .aside-inner {
   position: fixed; top: calc(var(--head, 128px) + 36px); width: 250px;
   max-height: calc(100vh - var(--head, 128px) - 56px); overflow-y: auto; scrollbar-width: thin;
 }
 
+/* Smaller photo that shrinks on short screens, so the whole column always fits without scrolling */
 aside .photo {
-  display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover;
-  border-radius: 10px; border: 1px solid var(--rule); margin-bottom: 26px; background: #fff;
+  display: block; width: clamp(110px, calc((100vh - var(--head, 128px) - 470px) * 0.8), 190px); height: auto; aspect-ratio: 4 / 5; object-fit: cover;
+  border-radius: 10px; border: 1px solid var(--rule); margin-bottom: 18px; background: #fff;
 }
 aside h2 {
-  font: 600 1.12rem/1.2 var(--serif); color: var(--accent); letter-spacing: 0; text-transform: none;
-  margin: 0 0 8px; padding-bottom: 6px; border-bottom: 2px solid var(--accent);
+  font: 600 1.02rem/1.2 var(--serif); color: var(--accent); letter-spacing: 0; text-transform: none;
+  margin: 0 0 6px; padding-bottom: 5px; border-bottom: 2px solid var(--accent);
 }
-aside section + section { margin-top: 28px; }
+aside section + section { margin-top: 20px; }
 aside ul { list-style: none; margin: 0; padding: 0; }
-aside li { padding: 5px 0; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 8px; }
-aside li span { color: var(--muted); font-size: 0.85rem; }
-aside address { font-style: normal; color: var(--muted); line-height: 1.55; }
+aside li { padding: 3px 0; border-bottom: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 8px; }
+aside li span { color: var(--muted); font-size: 0.8rem; }
+aside address { font-style: normal; color: var(--muted); line-height: 1.5; }
 
 main section { scroll-margin-top: calc(var(--head, 128px) + 16px); }
 
