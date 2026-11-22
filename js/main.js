@@ -111,6 +111,12 @@
 
   el("updated").textContent = DATA.updated;
 
+  // Links to other sites open in a new tab; links to sections of this page do not.
+  document.querySelectorAll('a[href^="http"], a[href^="//"]').forEach((a) => {
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+  });
+
   // The lists are built by this script, so jump to the requested section once they exist.
   if (location.hash) {
     const target = document.getElementById(location.hash.slice(1));
