@@ -133,6 +133,19 @@ ol.people .inst { color: var(--muted); font-size: 0.87rem; }
 ul.plain { margin: 0; padding-left: 18px; }
 ul.plain li { margin: 4px 0; }
 
+/* Events */
+ul.events { list-style: none; margin: 0; padding: 0; }
+ul.events li { padding: 7px 0; border-bottom: 1px solid var(--rule); }
+ul.events li a { font-weight: 500; }
+ul.events .detail { display: block; color: var(--muted); font-size: 0.88rem; }
+details.past { margin-top: 22px; }
+details.past summary {
+  cursor: pointer; font-weight: 600; padding: 10px 14px; border: 1px solid var(--rule);
+  border-radius: 8px; background: var(--surface); list-style-position: inside;
+}
+details.past summary:hover { border-color: var(--accent); }
+details.past[open] summary { margin-bottom: 4px; }
+
 footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; padding: 18px 0 40px; }
 
 @media (max-width: 820px) {

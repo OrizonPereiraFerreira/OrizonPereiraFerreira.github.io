@@ -100,6 +100,204 @@ const DATA = {
    "venue": "arXiv, 2026"
   }
  ],
+ "events": {
+  "forthcoming": [
+   {
+    "name": "5th Workshop on Continuous Optimization in Riemannian Manifolds",
+    "url": "https://woptr.ime.ufg.br/",
+    "detail": "Goiânia, Brazil, May 4–5, 2027"
+   },
+   {
+    "name": "International Symposium on Mathematical Programming (ISMP 2027)",
+    "url": "https://ismp2027.mathopt.nl/",
+    "detail": "Amsterdam, The Netherlands, July 25–30, 2027"
+   }
+  ],
+  "previous": [
+   {
+    "year": 2026,
+    "items": [
+     {
+      "name": "Brazil-China Optimization Workshop 2026",
+      "url": "https://eventos.fgv.br/brazilchina2026",
+      "detail": "FGV EMAP, Rio de Janeiro, Brazil, August 17–18"
+     },
+     {
+      "name": "Brazil-China Joint Mathematical Meeting",
+      "url": "https://jointmeetingbrazilchina.org",
+      "detail": "Luís Correia, PI, Brazil, August 10–14"
+     },
+     {
+      "name": "Optimization 2026",
+      "url": "https://optimization2026.iseg.ulisboa.pt/",
+      "detail": "Lisbon School of Economics and Management, Universidade de Lisboa, Portugal, July 20–22"
+     },
+     {
+      "name": "International Conference on Optimization and Machine Learning, Theory and Applications (ICOMaLTA 2026)",
+      "url": "https://www.icomalta.cl",
+      "detail": "Universidad de Tarapacá, Arica, Chile, May 10–15"
+     },
+     {
+      "name": "XV Brazilian Workshop on Continuous Optimization (BRAZOPT 2026)",
+      "url": "https://brazopt2026.blumenau.ufsc.br/",
+      "detail": "Blumenau, SC, Brazil, February 23–27"
+     }
+    ]
+   },
+   {
+    "year": 2025,
+    "items": [
+     {
+      "name": "XLIV Congresso Nacional de Matemática Aplicada e Computacional (CNMAC 2025)",
+      "url": "https://www.cnmac.org.br/novo/index.php/CNMAC",
+      "detail": "Fundação Getulio Vargas, Rio de Janeiro, Brazil, September 15–19"
+     },
+     {
+      "name": "Mathematical Congress of the Americas 2025",
+      "url": "https://www.mca2025.org/event/9e9666dd-2643-423b-b343-91f10f36e686/summary",
+      "detail": "Miami, USA, July 21–25"
+     },
+     {
+      "name": "1st Carioca Workshop on Optimization and Applications (CariOpt)",
+      "url": "https://eventos.fgv.br/carioca-workshop-optimization-and-applications-1st-cariopt",
+      "detail": "FGV EMAP, Rio de Janeiro, Brazil, May 5–7"
+     }
+    ]
+   },
+   {
+    "year": 2024,
+    "items": [
+     {
+      "name": "Brazil-China Joint Mathematical Meeting",
+      "url": "http://pmoaf5c38896.isitecenter.cn",
+      "detail": "Songshan Lake Science City, Dongguan, China, December 9–13"
+     },
+     {
+      "name": "IV Workshop on Continuous Optimization in Riemannian Manifolds",
+      "url": "https://sites.google.com/view/wcoptmanifolds",
+      "detail": "Universidade Federal do Delta do Parnaíba, Parnaíba, PI, Brazil, August 13–16"
+     },
+     {
+      "name": "EURO 2024, European Conference on Operational Research",
+      "url": "https://euro2024cph.dk",
+      "detail": "Technical University of Denmark, Copenhagen, Denmark, June 30–July 3"
+     },
+     {
+      "name": "XIV Brazilian Workshop on Continuous Optimization (BRAZOPT 2024)",
+      "url": "https://eventos.fgv.br/en/brazopt2024",
+      "detail": "Rio de Janeiro, Brazil, March 4–9"
+     }
+    ]
+   },
+   {
+    "year": 2023,
+    "items": [
+     {
+      "name": "International Conference on Variational Analysis and Optimization with Applications",
+      "url": "https://amu.ac.in/miscellaneous/icvaoa-2023",
+      "detail": "Aligarh Muslim University, Aligarh, India, September 23–25"
+     },
+     {
+      "name": "20th EUROPT Workshop on Continuous Optimization",
+      "url": "http://www.europt.hu/index.html",
+      "detail": "Corvinus University of Budapest, Hungary, August 23–25"
+     },
+     {
+      "name": "Brazil-China Joint Mathematical Meeting",
+      "url": "https://sbm.org.br/jointmeeting-china/",
+      "detail": "Foz do Iguaçu, Brazil, July 17–21"
+     }
+    ]
+   },
+   {
+    "year": 2021,
+    "items": [
+     {
+      "name": "IFIP TC7 Conference on System Modelling and Optimization",
+      "url": "https://modemat.epn.edu.ec/ifip_tc7_2021/",
+      "detail": "Quito, Ecuador, August 30–September 3"
+     },
+     {
+      "name": "2nd Forum on Brazil-China Cooperation and 5th Brazil-China Symposium on Applied and Computational Mathematics",
+      "url": "http://bcsacm.com/2021.php",
+      "detail": "Dongguan University of Technology, China, August 23–27"
+     }
+    ]
+   },
+   {
+    "year": 2019,
+    "items": [
+     {
+      "name": "XIII Brazilian Workshop on Continuous Optimization",
+      "url": "https://impa.br/en_US/eventos-do-impa/eventos-2019/xiii-brazilian-workshop-on-continuous-optimization/",
+      "detail": "IMPA, Rio de Janeiro, Brazil, September 23–27"
+     },
+     {
+      "name": "Workshop on Optimization on Manifolds 2019",
+      "url": "https://www.tu-chemnitz.de/mathematik/part_dgl/events/2019_workshop_optimization_on_manifolds/index.en.php",
+      "detail": "TU Chemnitz, Germany, August 9"
+     },
+     {
+      "name": "ICCOPT 2019",
+      "url": "https://iccopt2019.berlin/",
+      "detail": "Berlin, Germany, August 3–8"
+     },
+     {
+      "name": "EURO 2019",
+      "url": "https://www.euro2019dublin.com/",
+      "detail": "Dublin, Ireland, June 23–26"
+     }
+    ]
+   },
+   {
+    "year": 2018,
+    "items": [
+     {
+      "name": "III Congreso Internacional de Optimización y Aplicaciones",
+      "url": "http://optimizacioncallao.com/iii-congreso/",
+      "detail": "UNMSM, Lima, Peru, November 14–16"
+     },
+     {
+      "name": "ICM 2018, International Congress of Mathematicians",
+      "url": "http://www.icm2018.org/portal/abertura",
+      "detail": "Rio de Janeiro, Brazil, August 1–9"
+     },
+     {
+      "name": "XII Brazilian Workshop on Continuous Optimization",
+      "url": "http://www.foz2018.com/continuous-optimization",
+      "detail": "Foz do Iguaçu, Brazil, July 23–27"
+     },
+     {
+      "name": "Workshop on Convex Analysis and Optimization in Geodesic Spaces",
+      "url": "http://www.imus.us.es/wcaogs2018/venue.html",
+      "detail": "Universidad de Sevilla, Spain, July 12–13"
+     },
+     {
+      "name": "EURO 2018",
+      "url": "http://euro2018valencia.com/",
+      "detail": "Valencia, Spain, July 8–11"
+     },
+     {
+      "name": "ISMP 2018, International Symposium on Mathematical Programming",
+      "url": "https://ismp2018.sciencesconf.org/",
+      "detail": "Bordeaux, France, July 1–6"
+     },
+     {
+      "name": "3rd Workshop on Continuous Optimization in Riemannian Manifolds",
+      "url": "https://woptr.ime.ufg.br/",
+      "detail": "Goiânia, Brazil, March 26–28"
+     }
+    ]
+   }
+  ],
+  "series": [
+   {
+    "name": "Seminário Brasileiro de Otimização",
+    "url": "https://opt.ime.unicamp.br/sb/",
+    "detail": "seminar series"
+   }
+  ]
+ },
  "codeNote": "Codes of other papers are linked under each publication.",
  "publications": [
   {

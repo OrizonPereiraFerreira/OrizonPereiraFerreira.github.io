@@ -95,6 +95,18 @@
     "<h3>Ph.D. theses (" + DATA.students.phd.length + ")</h3>" + people(DATA.students.phd) +
     "<h3>Master's dissertations (" + DATA.students.msc.length + ")</h3>" + people(DATA.students.msc);
 
+  // Events
+  const ev = (e) =>
+    "<li><a href='" + esc(e.url) + "'>" + esc(e.name) + "</a><span class='detail'>" + esc(e.detail) + "</span></li>";
+  const E = DATA.events;
+  const nPrev = E.previous.reduce((s, y) => s + y.items.length, 0);
+  el("events-list").innerHTML =
+    "<h3>Forthcoming</h3><ul class='events'>" + E.forthcoming.map(ev).join("") + "</ul>" +
+    "<details class='past'><summary>Previous events (" + nPrev + ")</summary>" +
+    E.previous.map((y) => "<div class='year'>" + y.year + "</div><ul class='events'>" + y.items.map(ev).join("") + "</ul>").join("") +
+    "<div class='year'>Seminar series</div><ul class='events'>" + E.series.map(ev).join("") + "</ul>" +
+    "</details>";
+
   el("updated").textContent = DATA.updated;
 
   // Links to other sites open in a new tab; links to sections of this page do not.
