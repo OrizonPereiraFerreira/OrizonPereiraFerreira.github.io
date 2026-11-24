@@ -679,6 +679,22 @@ const DATA = {
      "venueUrl": "https://epubs.siam.org/journal/sjope8"
     },
     {
+     "n": 83,
+     "authors": [
+      "R. Díaz Millán",
+      "O. P. Ferreira",
+      "J. Ugon"
+     ],
+     "title": "Extragradient method with feasible inexact projection to variational inequality problem",
+     "venue": "Computational Optimization and Applications",
+     "ref": "89(2), 459–484",
+     "year": 2024,
+     "url": "https://doi.org/10.1007/s10589-024-00592-6",
+     "pdf": "",
+     "code": "",
+     "venueUrl": "https://link.springer.com/journal/10589"
+    },
+    {
      "n": 82,
      "authors": [
       "O. P. Ferreira",
