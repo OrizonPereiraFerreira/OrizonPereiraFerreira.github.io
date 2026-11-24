@@ -112,7 +112,8 @@
     <div class="wrap">Orizon P. Ferreira · IME/UFG · Updated <span id="updated"></span></div>
   </footer>
 
-  <script src="js/data.js?v=25"></script>
+  <!-- data.js changes whenever the publication sync runs: always load the current copy -->
+  <script>document.write('<script src="js/data.js?t=' + Date.now() + '"><\/script>');</script>
   <script src="js/main.js?v=25"></script>
 </body>
 </html>
