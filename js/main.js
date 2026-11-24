@@ -15,65 +15,90 @@
       .join(", ");
   }
 
+  const ICON = {
+    link: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 10a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>',
+    pdf: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/></svg>',
+    code: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/></svg>'
+  };
+
   function badges(p) {
     const b = [];
-    if (p.url) b.push('<a class="badge" href="' + esc(p.url) + '">' + (p.url.includes("doi.org") ? "DOI" : "Link") + "</a>");
-    if (p.pdf) b.push('<a class="badge" href="' + esc(p.pdf) + '">PDF</a>');
-    if (p.code) b.push('<a class="badge code" href="' + esc(p.code) + '">Code</a>');
+    if (p.url) b.push('<a class="badge" href="' + esc(p.url) + '">' + ICON.link + (p.url.includes("doi.org") ? "DOI" : p.url.includes("arxiv.org") ? "arXiv" : "Link") + "</a>");
+    if (p.pdf) b.push('<a class="badge" href="' + esc(p.pdf) + '">' + ICON.pdf + "PDF</a>");
+    if (p.code) b.push('<a class="badge code" href="' + esc(p.code) + '">' + ICON.code + "Code</a>");
     return b.length ? '<span class="badges">' + b.join("") + "</span>" : "";
   }
 
-  function pubItem(p, n) {
+  function pubItem(p) {
     const title = p.url ? '<a href="' + esc(p.url) + '">' + p.title + "</a>" : p.title;
+    const venue = p.venueUrl ? "<a class='journal' href='" + esc(p.venueUrl) + "'>" + esc(p.venue) + "</a>" : esc(p.venue || "");
     const ref = [p.ref, p.year].filter(Boolean).join(", ");
     return (
-      "<li><span class='num'>" + (n || "") + "</span><div>" +
+      "<li class='pub" + (p.n ? "" : " nonum") + "'>" +
+      "<span class='num'>" + (p.n ? p.n : "") + "</span>" +
+      "<div class='body'>" +
+      "<div class='ptitle'>" + title + (p.status ? " <span class='status'>" + esc(p.status) + "</span>" : "") + "</div>" +
       "<div class='authors'>" + authors(p.authors) + "</div>" +
-      "<div class='ptitle'>" + title + (p.status ? "<span class='status'>" + esc(p.status) + "</span>" : "") + "</div>" +
-      "<div class='venue'><i>" + (p.venueUrl ? "<a class='journal' href='" + esc(p.venueUrl) + "'>" + esc(p.venue) + "</a>" : esc(p.venue || "")) + "</i>" + (ref ? ", " + esc(ref) : "") + "." + badges(p) + "</div>" +
+      "<div class='venue'><i>" + venue + "</i>" + (ref ? ", " + esc(ref) : "") + badges(p) + "</div>" +
       "</div></li>"
     );
   }
 
   // Publications
-  const groups = DATA.publications; // [{name, items:[...]}]
+  const groups = DATA.publications; // [{name, byYear, items:[...]}]
   const total = groups.reduce((s, g) => s + g.items.length, 0);
+  const SHORT = { "Articles in journals": "Journals", "Expository articles": "Expository", "Book chapter": "Book chapter", "Ph.D. thesis": "Thesis" };
+  let cat = "all";
   el("pub-count").textContent = total + " items";
+  el("pub-cats").innerHTML =
+    "<button type='button' data-cat='all' class='on'>All <span>" + total + "</span></button>" +
+    groups.map((g, i) => "<button type='button' data-cat='" + i + "'>" + esc(SHORT[g.name] || g.name) + " <span>" + g.items.length + "</span></button>").join("");
+  el("pub-cats").addEventListener("click", (e) => {
+    const btn = e.target.closest("button");
+    if (!btn) return;
+    cat = btn.dataset.cat;
+    el("pub-cats").querySelectorAll("button").forEach((b) => {
+      b.classList.toggle("on", b === btn);
+      b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+    });
+    renderPubs();
+  });
 
   function renderPubs() {
     const q = el("pub-search").value.trim().toLowerCase();
     const onlyCode = el("pub-code").checked;
     let shown = 0;
     const html = groups
-      .map((g) => {
+      .map((g, gi) => {
+        if (cat !== "all" && String(gi) !== cat) return "";
         const items = g.items.filter((p) => {
           if (onlyCode && !p.code) return false;
           if (!q) return true;
-          const hay = (p.authors.join(" ") + " " + p.title + " " + (p.venue || "") + " " + (p.year || "")).toLowerCase();
+          const hay = (p.authors.join(" ") + " " + p.title.replace(/<[^>]+>/g, "") + " " + (p.venue || "") + " " + (p.year || "")).toLowerCase();
           return q.split(/\s+/).every((w) => hay.includes(w));
         });
         if (!items.length) return "";
         shown += items.length;
-        let out = "<h3>" + esc(g.name) + "</h3>";
+        let out = "<div class='pubgroup'><h3>" + esc(g.name) + " <span class='gcount'>" + items.length + "</span></h3>";
         if (g.byYear) {
-          let year = null, buf = "";
+          const years = [];
           items.forEach((p) => {
-            if (p.year !== year) {
-              if (buf) out += "<ol class='pubs'>" + buf + "</ol><hr class='yearsep'>";
-              buf = "";
-              year = p.year;
-            }
-            buf += pubItem(p, p.n);
+            const last = years[years.length - 1];
+            if (last && last.year === p.year) last.items.push(p);
+            else years.push({ year: p.year, items: [p] });
           });
-          if (buf) out += "<ol class='pubs'>" + buf + "</ol>";
+          out += years
+            .map((y) => "<div class='ygroup'><div class='ylabel'><span>" + esc(y.year) + "</span></div><ol class='pubs'>" + y.items.map(pubItem).join("") + "</ol></div>")
+            .join("");
         } else {
-          out += "<ol class='pubs'>" + items.map((p) => pubItem(p, p.n)).join("") + "</ol>";
+          out += "<ol class='pubs'>" + items.map(pubItem).join("") + "</ol>";
         }
-        return out;
+        return out + "</div>";
       })
       .join("");
-    el("pub-list").innerHTML = html || "<p class='note'>No publication matches the search.</p>";
-    el("pub-shown").textContent = shown === total ? "" : shown + " shown";
+    el("pub-list").innerHTML = html || "<p class='empty'>No publication matches the search.</p>";
+    el("pub-shown").textContent = shown === total ? "" : shown + " of " + total + " shown";
+    el("pub-list").querySelectorAll('a[href^="http"]').forEach((a) => { a.target = "_blank"; a.rel = "noopener noreferrer"; });
   }
   el("pub-search").addEventListener("input", renderPubs);
   el("pub-code").addEventListener("change", renderPubs);
