@@ -178,7 +178,7 @@ li.pub.nonum { grid-template-columns: minmax(0, 1fr); padding-left: 12px; margin
 li.pub.nonum .num { display: none; }
 li.pub:hover { background: var(--surface); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); }
 li.pub .num { color: var(--muted); font: 500 0.75rem/1 var(--sans); padding-top: 6px; text-align: right; padding-right: 8px; font-variant-numeric: tabular-nums; opacity: 0.8; }
-.ptitle { font: 600 1.05rem/1.38 var(--serif); }
+.ptitle { font: 400 1.08rem/1.4 var(--serif); }
 .ptitle a { color: var(--ink); }
 .ptitle a:hover { color: var(--accent); text-decoration: none; }
 li.pub .authors { font-size: 0.9rem; color: var(--muted); margin-top: 3px; }
