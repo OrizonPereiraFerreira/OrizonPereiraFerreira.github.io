@@ -64,19 +64,7 @@
         if (!items.length) return "";
         shown += items.length;
         let out = "<div class='pubgroup'><h3>" + esc(g.name) + " <span class='gcount'>" + items.length + "</span></h3>";
-        if (g.byYear) {
-          const years = [];
-          items.forEach((p) => {
-            const last = years[years.length - 1];
-            if (last && last.year === p.year) last.items.push(p);
-            else years.push({ year: p.year, items: [p] });
-          });
-          out += years
-            .map((y) => "<div class='ygroup'><div class='ylabel'><span>" + esc(y.year) + "</span></div><ol class='pubs'>" + y.items.map(pubItem).join("") + "</ol></div>")
-            .join("");
-        } else {
-          out += "<ol class='pubs'>" + items.map(pubItem).join("") + "</ol>";
-        }
+        out += "<ol class='pubs'>" + items.map(pubItem).join("") + "</ol>";
         return out + "</div>";
       })
       .join("");
