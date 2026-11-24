@@ -48,6 +48,8 @@
   const groups = DATA.publications; // [{name, byYear, items:[...]}]
   const total = groups.reduce((s, g) => s + g.items.length, 0);
   el("pub-count").textContent = total + " items";
+  // Preprints have no stored number: count them down like the other lists.
+  groups.filter((g) => /preprint/i.test(g.name)).forEach((g) => g.items.forEach((p, i) => { if (!p.n) p.n = g.items.length - i; }));
 
   function renderPubs() {
     const q = el("pub-search").value.trim().toLowerCase();
