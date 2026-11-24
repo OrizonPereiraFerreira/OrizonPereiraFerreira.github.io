@@ -1,2 +1,2 @@
-# DOIs that the automatic sync must never add to the page (one per line).
-# Use it for works wrongly attributed to the author on OpenAlex.
+# DOIs or arXiv ids that the automatic sync must never add to the page (one per line).
+# Use it for works wrongly attributed to the author. Lines starting with # are ignored.
