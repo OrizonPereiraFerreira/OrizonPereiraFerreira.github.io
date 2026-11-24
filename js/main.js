@@ -47,30 +47,14 @@
   // Publications
   const groups = DATA.publications; // [{name, byYear, items:[...]}]
   const total = groups.reduce((s, g) => s + g.items.length, 0);
-  const SHORT = { "Articles in journals": "Journals", "Expository articles": "Expository", "Book chapter": "Book chapter", "Ph.D. thesis": "Thesis" };
-  let cat = "all";
   el("pub-count").textContent = total + " items";
-  el("pub-cats").innerHTML =
-    "<button type='button' data-cat='all' class='on'>All <span>" + total + "</span></button>" +
-    groups.map((g, i) => "<button type='button' data-cat='" + i + "'>" + esc(SHORT[g.name] || g.name) + " <span>" + g.items.length + "</span></button>").join("");
-  el("pub-cats").addEventListener("click", (e) => {
-    const btn = e.target.closest("button");
-    if (!btn) return;
-    cat = btn.dataset.cat;
-    el("pub-cats").querySelectorAll("button").forEach((b) => {
-      b.classList.toggle("on", b === btn);
-      b.setAttribute("aria-pressed", b === btn ? "true" : "false");
-    });
-    renderPubs();
-  });
 
   function renderPubs() {
     const q = el("pub-search").value.trim().toLowerCase();
     const onlyCode = el("pub-code").checked;
     let shown = 0;
     const html = groups
-      .map((g, gi) => {
-        if (cat !== "all" && String(gi) !== cat) return "";
+      .map((g) => {
         const items = g.items.filter((p) => {
           if (onlyCode && !p.code) return false;
           if (!q) return true;
