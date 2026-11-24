@@ -369,6 +369,39 @@ const DATA = {
     {
      "authors": [
       "O. P. Ferreira",
+      "M. L. N. Gonçalves",
+      "A. M. González",
+      "M. S. Louzeiro"
+     ],
+     "title": "Projected Gradient Method on Hadamard Manifolds",
+     "venue": "arXiv:2609.00540",
+     "ref": "",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2609.00540",
+     "pdf": "",
+     "code": "",
+     "venueUrl": "https://arxiv.org/abs/2609.00540"
+    },
+    {
+     "authors": [
+      "O. P. Ferreira",
+      "D. S. Gonçalves",
+      "M. S. Louzeiro",
+      "S. Z. Németh",
+      "J. Zhu"
+     ],
+     "title": "A subdifferential characterization via Busemann functions and applications to DC optimization on Hadamard manifolds",
+     "venue": "arXiv:2602.20931",
+     "ref": "",
+     "year": 2026,
+     "url": "https://arxiv.org/abs/2602.20931",
+     "pdf": "",
+     "code": "",
+     "venueUrl": "https://arxiv.org/abs/2602.20931"
+    },
+    {
+     "authors": [
+      "O. P. Ferreira",
       "M. S. Louzeiro",
       "S. Z. Németh"
      ],
